@@ -6,6 +6,36 @@ IDSA is working on an assessment scheme for OSS projects that is clearly aligend
 
 # List of known components
 
+[Trusted Connector](https://github.com/industrial-data-space)
+
+Based on another connector: -
+
+Trust Certification Level
+
+Using Identity Provider: yes
+
+Using Infomodel Version 4.0.0: yes
+
+Validate Infomodel: -
+
+Broker Registration: yes
+
+Provide Data in IDS via: IDSCP
+
+Consume Data in IDS via IDSCP: yes
+
+Usage Policy Negotiation: -
+
+Usage Control realization: LUCON
+
+Support AppStore / IDS Data Apps: yes
+
+Support Clearing House: yes
+
+Support ParIS: - 
+
+Support Vocabulary Provider: -
+
 
 IDS Functionalities  | Trusted Connector |	Dataspace Connector	| IDS Enterprise Integration Connector |	TNO Trusted Connector |	GEC  Connector| DIH Connector	| Orbiter Connector	| Open Data Connector	| OPC UA Factory Connector | Metadata-broker-open-core 
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
