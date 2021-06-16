@@ -139,14 +139,12 @@ On the IDSA website some use cases are described, which can be used as a guideli
 
 
 ## Setup your IDS Connector in your system landscape
-
-**TODO** Link to DSC, Trusted Connector, TRUE Connector
-
----
-From here on old content
-
----
-
+The latest version of the updated components can be found in the International Data Spaces Association github repository https://github.com/International-Data-Spaces-Association
+The components that will be used are located at the following links:
+Link to the Data Space Connector: https://github.com/International-Data-Spaces-Association/DataspaceConnector
+Link to the Trusted Connector: https://github.com/International-Data-Spaces-Association/trusted-connector/tree/master
+Link to the omejdn-daps: https://github.com/International-Data-Spaces-Association/omejdn-daps
+Link to the metadata-broker-open-core: https://github.com/International-Data-Spaces-Association/metadata-broker-open-core
 
 ## Design your architecture
 This stage is meant to support you in designing the architecture of your components. It provides relevant links and explains the context around it. 
@@ -163,8 +161,22 @@ You can either build IDS components from scratch by using existing resources as 
 + Integration of IDS into existing systems
 ## Prepare for certification
 + IDS Plugfest 
-+ IDS Testbeds 
+  Plugfest is an event where developers share the progress of the components they are developing and share their ideas and concerns with the rest of the developer community.
++ IDS Testbeds
+  The IDS Testbed main objective is to stablish one reference Testbed that contains the necessary containers with the required interoperability functionalities for certification
+  purposes and for developers to test their components. It also includes the code of the components used in the TestBed together with an installation guide with the required
+  steps and software needed in order to be able to interoperate between the different components that are provided.
+  The first version of the reference TestBed is at the IDS Github Repository https://github.com/International-Data-Spaces-Association/IDS-testbed/tree/master/Testbed. This 
+  version of the TestBed is still in development because there are interopeability issues between components that have yet to be fixed but the components can be installed and
+  their functionalities can be tested.
+  In this repository you can find the zip documents of the components used in the TestBed along with the installation guide of the same, explaining in the latter the existing
+  interoperability functionalities available.
 + SQS Integration Test Camp
+  The Integration Test Camp is a remotely accessible infrastructure developed by IDSA member SQS. It gives companies the opportunity to test the interoperability of pre-
+  commercial IDSA components in a production-like scenario.
+  The Integration Test Camp is open for everyone as part of a monthly event. Participants are given a two-hour time slot during which the entire infrastructure is available and
+  reserved for them. During this time, the participants are in constant communication with the SQS team. Video calls allow both parties to see and share what is happening.
+  Guidelines for the sessions specify each individual test step.
 + IDS Lab 
 + Sick testbed
 + nicos AG testbed 
